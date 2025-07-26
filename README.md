@@ -5,8 +5,298 @@
 
 ![Hyperpane Icon](Resources/hyperpane-icon-256.png)
 
-## ✨ **Características Principales**
+<div style="text-align: center;">
+  <img src="Resources/hyperpane-icon-256.png" alt="Hyperpane Logo" width="200" height="200">
+</div>div>
 
+# 🚀 Hyperpane - Escritorio Expandido Revolucionario
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![.NET](https://img.shields.io/badge/.NET-6.0-purple.svg)](https://dotnet.microsoft.com/download/dotnet/6.0)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue.svg)](https://www.microsoft.com/windows)
+[![Build Status](https://img.shields.io/badge/Build-Stable-green.svg)](https://github.com/alexisunibe/Hyperpane)
+
+## 📋 Tabla de Contenidos
+
+- [Introducción](#introducción)
+- [Características Principales](#características-principales)
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Requisitos del Sistema](#requisitos-del-sistema)
+- [Instalación](#instalación)
+- [Guía de Inicio Rápido](#guía-de-inicio-rápido)
+- [Uso Avanzado](#uso-avanzado)
+- [Arquitectura del Proyecto](#arquitectura-del-proyecto)
+- [Configuración](#configuración)
+- [Contribución](#contribución)
+- [Roadmap](#roadmap)
+- [Licencia](#licencia)
+- [Soporte](#soporte)
+
+## 🎯 Introducción
+
+**Hyperpane** es una aplicación revolucionaria de escritorio expandido desarrollada en .NET 6.0 que transforma completamente tu experiencia de navegación horizontal en Windows. Con funcionalidades avanzadas como wallpapers animados, magnetización inteligente de ventanas, física realista y un sistema completo de gestión de perfiles, Hyperpane lleva tu productividad al siguiente nivel.
+
+### ¿Por qué Hyperpane?
+
+- ✅ **Experiencia fluida**: Navegación con física realista y 60 FPS constantes
+- ✅ **Productividad mejorada**: Gestión inteligente de ventanas y espacios de trabajo
+- ✅ **Personalización total**: Wallpapers animados, layouts personalizables y perfiles de usuario
+- ✅ **Compatibilidad universal**: Integración perfecta con Wallpaper Engine y herramientas de terceros
+- ✅ **Optimización profesional**: Arquitectura modular y gestión avanzada de memoria
+
+## ✨ Características Principales
+
+### 🎯 Navegación Fluida y Física Realista
+- **Inercia y fricción** en el movimiento del escritorio
+- **Animaciones suaves** con 60 FPS optimizadas
+- **Gestos avanzados** del mouse y teclado
+- **Navegación con rueda del mouse** y arrastre intuitivo
+- **Física realista** con decaimiento de velocidad y rebote
+
+### 🗺️ MiniMap Inteligente
+- **Navegación visual** con vista previa del workspace
+- **Marcadores personalizables** con colores y nombres
+- **Zoom independiente** del minimapa
+- **Modo compacto** para ahorrar espacio
+- **Sincronización bidireccional** con el workspace
+
+### 🧲 Magnetización de Ventanas
+- **Zonas magnéticas** predefinidas y personalizables
+- **Detección automática** de ventanas del sistema
+- **Snap inteligente** con animaciones suaves
+- **Gestión de múltiples monitores**
+- **Configuración de sensibilidad** ajustable
+
+### 🎨 Wallpapers Animados
+- **Soporte para videos** como wallpapers de fondo
+- **Imágenes estáticas** con desplazamiento suave
+- **Control de volumen** y reproducción en bucle
+- **Múltiples formatos** soportados (MP4, AVI, MOV, etc.)
+- **Optimización de memoria** automática
+
+### 🚀 Integración con Wallpaper Engine
+- **Detección automática** de Wallpaper Engine
+- **Modo transparente** para wallpapers de Wallpaper Engine
+- **Resolución extendida** simulando múltiples monitores
+- **Configuración inteligente** y recomendaciones automáticas
+
+## 📸 Capturas de Pantalla
+
+*Las capturas de pantalla serán añadidas próximamente*
+
+## 💻 Requisitos del Sistema
+
+### Requisitos Mínimos
+- **Sistema Operativo**: Windows 10 (64-bit) o superior
+- **Framework**: .NET 6.0 Runtime
+- **RAM**: 4GB mínimo
+- **Procesador**: Intel Core i3 / AMD Ryzen 3 o superior
+- **Gráficos**: DirectX 11 compatible
+
+### Requisitos Recomendados
+- **Sistema Operativo**: Windows 11 (64-bit)
+- **RAM**: 8GB o superior
+- **Procesador**: Intel Core i5 / AMD Ryzen 5 o superior
+- **Gráficos**: Tarjeta gráfica dedicada
+- **Almacenamiento**: 500MB libres
+
+## 📥 Instalación
+
+### Descarga Directa
+1. Descarga la última versión desde la [página de releases](https://github.com/alexisunibe/Hyperpane/releases)
+2. Extrae el archivo ZIP en tu carpeta preferida
+3. Ejecuta `Hyperpane.exe`
+
+### Instalación de Dependencias
+```bash
+# Instalar .NET 6.0 Runtime (si no está instalado)
+winget install Microsoft.DotNet.Runtime.6
+
+# Opcional: ImageMagick para generación de iconos
+winget install ImageMagick.ImageMagick
+```
+
+## 🚀 Guía de Inicio Rápido
+
+### Primer Uso
+1. **Iniciar la aplicación**: Ejecuta `Hyperpane.exe`
+2. **Configuración inicial**: Presiona `F1` para abrir el panel de configuración
+3. **Añadir wallpaper**: Arrastra una imagen o video al workspace
+4. **Configurar layout**: Selecciona tu layout preferido
+5. **Crear perfil**: Guarda tu configuración personalizada
+
+### Controles Básicos
+
+#### 🖱️ Mouse
+- **Clic izquierdo + arrastre**: Navegar por el workspace
+- **Rueda del mouse**: Scroll horizontal
+- **Shift + rueda**: Scroll horizontal preciso
+- **Ctrl + rueda**: Zoom del workspace
+- **Doble clic**: Centrar en posición
+
+#### ⌨️ Teclado
+- **Flechas izquierda/derecha**: Navegación paso a paso
+- **Home/End**: Ir al inicio/fin del workspace
+- **Espacio**: Pausar/reanudar wallpaper
+- **F1**: Abrir panel de configuración
+- **F2**: Activar/desactivar modo desarrollador
+- **F3**: Toggle magnetización de ventanas
+
+## 🏗️ Arquitectura del Proyecto
+
+```
+Hyperpane/
+├── Core/                          # Núcleo del sistema
+│   ├── ViewportManager.cs         # Gestión de viewport con física
+│   └── WorkspaceCanvas.cs         # Canvas optimizado del workspace
+├── Input/                         # Sistema de entrada
+│   └── SlideController.cs         # Control de gestos y navegación
+├── Logic/                         # Lógica de negocio
+│   └── WorkspaceCanvas.cs         # Lógica del workspace
+├── Services/                      # Servicios del sistema
+│   ├── WallpaperManager.cs        # Gestión de wallpapers
+│   ├── AutoDetectManager.cs       # Detección de Wallpaper Engine
+│   ├── CompatibilityManager.cs    # Compatibilidad con apps de terceros
+│   ├── WindowMagnetizer.cs        # Magnetización de ventanas
+│   ├── WorkspaceLayoutManager.cs  # Gestión de layouts
+│   ├── ProfileManager.cs          # Gestión de perfiles
+│   ├── TransitionManager.cs       # Transiciones visuales
+│   ├── AutoSaveManager.cs         # Auto-guardado
+│   └── DeveloperOverlay.cs        # Modo desarrollador
+├── UI/                            # Interfaz de usuario
+│   ├── MiniMap.xaml              # Interfaz del minimapa
+│   ├── MiniMap.xaml.cs           # Lógica del minimapa
+│   └── SettingsPanel.xaml        # Panel de configuración
+├── Config/                        # Configuración
+│   ├── AppSettings.cs            # Configuración de la aplicación
+│   └── PerformanceConfig.cs      # Configuración de rendimiento
+├── Utils/                         # Utilidades
+├── Resources/                     # Recursos visuales
+│   ├── hyperpane-icon.svg        # Icono SVG original
+│   ├── hyperpane-icon.ico        # Icono principal
+│   └── IconResources.xaml        # Recursos XAML de iconos
+├── MainWindow.xaml               # Ventana principal
+├── MainWindow.xaml.cs            # Lógica de la ventana principal
+├── App.xaml                      # Configuración de la aplicación
+├── App.xaml.cs                   # Punto de entrada
+└── Hyperpane.csproj              # Archivo de proyecto
+```
+
+## 🛠️ Tecnologías Utilizadas
+
+- **[.NET 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)** - Framework moderno y optimizado
+- **[WPF](https://docs.microsoft.com/dotnet/desktop/wpf/)** - Interfaz de usuario avanzada
+- **[XAML](https://docs.microsoft.com/dotnet/desktop/wpf/xaml/)** - Diseño declarativo de UI
+- **[C# 10.0](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-10)** - Lenguaje moderno
+- **System.Windows.Media** - Animaciones y efectos visuales
+- **System.Windows.Threading** - Gestión de hilos y timers
+
+## ⚙️ Configuración
+
+### Archivos de Configuración
+- `session.json` - Estado de la sesión actual
+- `profiles.json` - Perfiles de usuario
+- `minimap_config.xml` - Configuración del minimapa
+- `appsettings.json` - Configuración general
+
+### Configuración de Rendimiento
+```json
+{
+  "frameRate": 60,
+  "memoryLimit": "100MB",
+  "animationDuration": "optimized",
+  "physicsConstants": "adjusted",
+  "autoSaveInterval": 30
+}
+```
+
+## 🤝 Contribución
+
+¡Las contribuciones son bienvenidas! Sigue estos pasos:
+
+### Cómo Contribuir
+1. **Fork** el proyecto
+2. **Crea** una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. **Commit** tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** a la rama (`git push origin feature/AmazingFeature`)
+5. **Abre** un Pull Request
+
+### Guías de Contribución
+- Sigue el estilo de código existente
+- Añade tests para nuevas funcionalidades
+- Actualiza la documentación según sea necesario
+- Asegúrate de que todos los tests pasen
+
+### Reportar Bugs
+Usa el [sistema de issues](https://github.com/alexisunibe/Hyperpane/issues) para reportar bugs. Incluye:
+- Descripción detallada del problema
+- Pasos para reproducir el bug
+- Información del sistema
+- Screenshots si es relevante
+
+## 🗺️ Roadmap
+
+### 📋 Fase 3 (Planificada)
+- [ ] Soporte para múltiples monitores avanzado
+- [ ] Plugins y extensiones del sistema
+- [ ] Integración con la nube para sincronización
+- [ ] Temas personalizables completos
+- [ ] Gestión de espacios de trabajo virtuales
+- [ ] Integración con APIs de terceros
+- [ ] Soporte para gestos táctiles
+- [ ] Optimizaciones de IA para organización automática
+
+### 🔧 Mejoras de Rendimiento
+- [ ] Renderizado GPU acelerado
+- [ ] Compresión de memoria avanzada
+- [ ] Lazy loading de componentes
+- [ ] Optimización de red para wallpapers remotos
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+```
+MIT License
+
+Copyright (c) 2025 alexisunibe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+```
+
+## 📞 Soporte
+
+### ¿Necesitas ayuda?
+
+- 📚 **Documentación**: Consulta la [Wiki](https://github.com/alexisunibe/Hyperpane/wiki)
+- 🐛 **Reportar Bugs**: [Issues](https://github.com/alexisunibe/Hyperpane/issues)
+- 💬 **Discusiones**: [Discussions](https://github.com/alexisunibe/Hyperpane/discussions)
+- 🔧 **Diagnóstico**: Usa el modo desarrollador (F2)
+
+### Recursos Adicionales
+- [Guía de Integración con Wallpaper Engine](WALLPAPER_ENGINE_INTEGRATION.md)
+- [Guía de Compatibilidad](COMPATIBILITY_GUIDE.md)
+- [Documentación del Sistema de Iconos](ICON_SYSTEM.md)
+
+---
+
+<div align="center">
+
+**Hyperpane Fase 2** - Transformando la experiencia del escritorio expandido con tecnología avanzada 🚀
+
+*Desarrollado con ❤️ por [alexisunibe](https://github.com/alexisunibe)*
+
+[⭐ Star este proyecto](https://github.com/alexisunibe/Hyperpane/stargazers) | [🍴 Fork](https://github.com/alexisunibe/Hyperpane/fork) | [📝 Issues](https://github.com/alexisunibe/Hyperpane/issues)
+
+</div>
 ### 🎯 **Navegación Fluida y Física Realista**
 - **Inercia y fricción** en el movimiento del escritorio
 - **Animaciones suaves** con 60 FPS optimizadas
